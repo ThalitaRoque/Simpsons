@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Roboto:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-color: cornflowerblue;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background-color: black;
+    color: whitesmoke;
+    top: 0;
+
+}
+.navbar-menu{
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    list-style-type: none;
+
+}
+.navbar-item{
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+.navbar-item img{
+    height: 30px;
+
+}
+.navbar-link{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar-link:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+/* HOME */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    margin: 20px;
+    align-items: center;
+}
+.hero-title{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.hero-title span {
+    color: yellow;
+}
+
+.hero-caption{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hero-caption span {
+    color: yellow;
+}
+.hero img {
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.hero img:hover{
+    filter: saturade 50%;
+}
+/*CHARACTERS*/
+
+.characters{
+    display: flex;
+    justify-content: space-around;
+}
+
+.characters-item{
+    text-align: center;
+    margin: 10px;
+    height: 300px;
+    width: 180px;
+    padding: 4px;
+}
+.characters-title{
+    background-color:yellow;
+    border-radius: 10px;
+    color:black;
+    padding: 3px;
+}
+.characters-caption{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.characters-item img{
+    object-fit: contain;
+    width: 70%;
+    height: 70%;
+}
+
+/* CONTACT */
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contact a{
+    text-decoration: none;
+    color: red;
+}
+.contact a:hover{
+    color: seagreen;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: black;
+}
